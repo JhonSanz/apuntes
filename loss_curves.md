@@ -40,3 +40,7 @@ Some links:
 - The model cannot learn from the training data.
 - We need more training data or our training data is too complicated to our model. So increase the depth or the breath by adding layers or neurons.
 - In the second maybe it can learn but it needs more epochs.
+
+![unrepresentative](img/unrepresentative_data.png)
+- In the first consider shuffle and try again. Try a different splitting. Consider collect more data.
+- In the second maybe you have a small validation set. Or is possible that you have a set that isn't representative of the traning data.
