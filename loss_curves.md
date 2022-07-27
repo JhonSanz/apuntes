@@ -8,6 +8,7 @@ Some links:
 
 - [Your validation loss is lower than your training loss? This is why!](https://towardsdatascience.com/what-your-validation-loss-is-lower-than-your-training-loss-this-is-why-5e92e0b1747e)
 - [Understanding the training and validation loss curves](https://www.youtube.com/watch?v=p3CcfIjycBA&t=1305s)
+- [How to Diagnose Overfitting and Underfitting of LSTM Models](https://machinelearningmastery.com/diagnose-overfitting-underfitting-lstm-models/)
 ---
 
 ![1](img/1.png)
