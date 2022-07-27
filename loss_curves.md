@@ -4,6 +4,10 @@ We can find a multiple types of loss curves, and each one has some specific deta
 
 In the next images we're going to see some examples and its possible explanation.
 
+Some links:
+
+- [Your validation loss is lower than your training loss? This is why!](https://towardsdatascience.com/what-your-validation-loss-is-lower-than-your-training-loss-this-is-why-5e92e0b1747e)
+- [Understanding the training and validation loss curves](https://www.youtube.com/watch?v=p3CcfIjycBA&t=1305s)
 ---
 
 ![1](img/1.png)
@@ -19,4 +23,20 @@ In the next images we're going to see some examples and its possible explanation
 - Here with the dropout during the training, a percentage of features are set to zero. During the testing all neurons are used. So the model during the training is more robust, and can lead to higher testing acurracies.
 - In other words, for training it makes it harder than in testing.
 - The value for dropout 0.2 or 0.5 means that during the training phase 20% or 50% percentage of neurons are going to be disabled, So during the testing is more robust.
+- The dropout is used in regularization.
 
+![good_model](img/good_model.png)
+- Those are examples of excellent models.
+- They are correlated with some differences but at the end they back togheter.
+
+![overfitting](img/overfitting.png)
+- Overfitting example
+- Here our training is doing excellent but the validation is diverging.
+- You can consider to add early stopping to keep our model in 100 epochs which has a good performance.
+- Here the model is more complex and it can generalize well in the traning data but it comes to fail with validation data.
+
+![underfitting](img/underfitting.png)
+- Underfitting examples. Validation and traning errors are very high.
+- The model cannot learn from the training data.
+- We need more training data or our training data is too complicated to our model. So increase the depth or the breath by adding layers or neurons.
+- In the second maybe it can learn but it needs more epochs.
